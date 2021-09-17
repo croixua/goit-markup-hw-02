@@ -23,6 +23,7 @@ background 2 #F5F4FA
 */
 
 body {
+  /* Typography */
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
@@ -32,6 +33,7 @@ body {
   color: var(--accent-color);
 }
 .logo {
+  /* Typography */
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -52,6 +54,7 @@ body {
 }
 
 .title {
+  /* Typography */
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -61,6 +64,10 @@ body {
 
 .current-page {
   color: var(--accent-color);
+}
+
+.btn {
+  cursor: pointer;
 }
 
 /* ---------- HEADER ---------- */
@@ -98,6 +105,7 @@ body {
 }
 .hero-btn {
   /* Typography */
+  font-style: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -106,8 +114,6 @@ body {
   color: var(--third-text-color);
   /* Visual */
   background-color: var(--accent-color);
-
-  cursor: pointer;
 }
 
 /* ---------- ADVANTAGE ---------- */
@@ -164,4 +170,36 @@ body {
   color: rgba(255, 255, 255, 0.6);
   /* Visual */
   background-color: black;
+}
+
+/* --------- PORTFOLIO ------------ */
+
+.portfolio-btn {
+  /* Typography */
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--secondary-text-color);
+  /* Visual */
+  background-color: var(--secondary-background-color);
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  /* Visual */
+  background-color: var(--accent-color);
+}
+.portfolio-title {
+  /* Typography */
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.portfolio-text {
+  /* Typography */
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
 }

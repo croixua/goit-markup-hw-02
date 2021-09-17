@@ -14,43 +14,67 @@
     <title>Test</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- логотип -->
-      <a href="./index.html">WebStudio</a>
+      <a href="./index.html" class="logo header-logo link"
+        ><span>Web</span>Studio</a
+      >
 
       <!-- навигация -->
 
-      <nav>
-        <ul>
-          <li>Студия</li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li>Контакты</li>
+      <nav class="header-nav">
+        <ul class="header-list list">
+          <li class="header-item">
+            <a class="header-link link" href="./index.html">Студия</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="./portfolio.html"
+              ><span class="current-page">Портфолио</span></a
+            >
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">Контакты</a>
+          </li>
         </ul>
       </nav>
 
       <!-- список контактов -->
 
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="header-contacts-list contacts-list list">
+        <li class="header-contacts-item">
+          <a class="header-contacts-link link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
-        <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="header-contacts-item">
+          <a class="header-contacts-link link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
 
     <main>
-      <section>
-        <h1>Портфолио</h1>
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <section class="portfolio">
+        <h1 class="portfolio-title">Портфолио</h1>
+        <ul class="portfolio-filter-list">
+          <li class="portfolio-item">
+            <button class="portfolio-btn btn" type="button">Все</button>
+          </li>
+          <li class="portfolio-item">
+            <button class="portfolio-btn btn" type="button">Веб-сайты</button>
+          </li>
+          <li class="portfolio-item">
+            <button class="portfolio-btn btn" type="button">Приложения</button>
+          </li>
+          <li class="portfolio-item">
+            <button class="portfolio-btn btn" type="button">Дизайн</button>
+          </li>
+          <li class="portfolio-item">
+            <button class="portfolio-btn btn" type="button">Маркетинг</button>
+          </li>
         </ul>
-        <ul>
+        <ul class="po">
           <li>
             <a href=""
               ><img
@@ -163,20 +187,32 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <!-- логотип -->
 
-      <a href="./index.html">WebStudio</a>
+      <a href="./index.html" class="logo link"><span>Web</span>Studio</a>
 
       <!-- адрес -->
-      <address>
-        <ul>
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
-          <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+      <address class="address">
+        <ul class="addres-list list">
+          <li class="addres-item">
+            <a class="adress-link link" href=""
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
           </li>
           <li>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <a
+              class="adress-contacts-link contacts-link link"
+              href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li class="addres-item">
+            <a
+              class="adress-contacts-link contacts-link link"
+              href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
           </li>
         </ul>
       </address>

@@ -29,12 +29,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo > span {
+.logo-accent {
   color: var(--accent-color);
 }
 .logo {
   /* Typography */
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -152,9 +152,12 @@ body {
 }
 
 /* ------------- FOOTER -------------- */
+.address {
+  font-style: normal;
+}
 .adress-link {
   /* Typography */
-  font-style: normal;
+
   font-size: 14px;
   line-height: 1.71;
   color: var(--third-text-color);
@@ -163,8 +166,7 @@ body {
 }
 .adress-contacts-link {
   /* Typography */
-  font-style: normal;
-  font-weight: normal;
+
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
@@ -187,6 +189,7 @@ body {
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   /* Visual */
+  color: var(--third-text-color);
   background-color: var(--accent-color);
 }
 .portfolio-title {
